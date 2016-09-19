@@ -1,0 +1,117 @@
+% usage: \gls{domain-knowledge} 
+% https://www.wmo.int/pages/prog/lsp/meteoterm_wmo_en.html
+
+\newglossaryentry{domain-knowledge}{%
+  name={domain knowledge},%
+  description={Valid knowledge used to refer to an area of human endeavor, an autonomous computer activity, or other specialized discipline}}
+
+\newacronym{tla}{TLA}{Three Letter Acronym}
+
+\newglossaryentry{forecast-verification}{%
+  name={Forecast verification},%
+  description={The process of comparing forecasts to relevant observations or assessing the quality of a forecast product or system}}
+
+\newglossaryentry{brier-score}{%
+  name={Brier Score},%
+  description={Also called Standard Score}}
+
+\newglossaryentry{forecast-quality}{%
+  name={Forecast quality},%
+  description={How well a forecast compares against a corresponding observation of what actually occurred, or some good estimate of the true outcome}}
+
+% de http://www.wmo.int/pages/prog/www/DPS/SVS-for-LRF.html
+\newglossaryentry{lead-time}{%
+  name={Lead time},%
+  description={The period of time between the issue time of the forecast and the beginning of the forecast validity period. Long-range forecasts based on all data up to the beginning of the forecast validity period are said to be of lead zero. The period of time between the issue time and the beginning of the validity period will categorize the lead. For example, a Winter seasonal forecast issued at the end of the preceding Summer season is said to be of one season lead. A seasonal forecast issued one month before the beginning of the validity period is said to be of one month lead. Also, Forecast lead time}}
+
+% de http://www.wmo.int/pages/prog/www/DPS/SVS-for-LRF.html
+\newglossaryentry{forecast-period}{%
+  name={Forecast period},%
+  description={The validity period of a forecast. For example, long-range forecasts may be valid for a 90-day period or a season}}
+  
+\newglossaryentry{forecast-value}{%
+  name={Forecast value},%
+  description={How a forecast helps the user to make a better decision}}
+
+\newglossaryentry{hindcast}{%
+  name={Hindcast},%
+  description={A forecast which is run over a historical period (often 30 or more years) with available observation data; provides verification statistics for forecast tools}}
+
+\newglossaryentry{bias}{%
+  name={Bias},%
+  description={Conditional (ex. over-predicting rainfall during El Nino events) or constant biases (ex. consistently predicting 3 cm3/s more flow at a gage station than observed) exist is most forecast systems, and may generally be detected using statistical tools}}
+ 
+\newglossaryentry{bias-correction}{%
+  name={Bias correction},%
+  description={Removal of detected bias either from input data or post-processing the prediction data of a model}}
+
+\newglossaryentry{forecast-skill}{%
+  name={Forecast skill},%
+  description={The relative accuracy of the forecast over some reference forecast.
+Score: a quantitative measure of forecast quality}}
+
+\newglossaryentry{skill-score}{%
+  name={Forecast skill},%
+  description={A relative measure (or scaled representation) of forecast quality that relates the forecast accuracy of a particular forecast to some reference forecast. Skill scores range from negative infinity to positive one. A perfect categorical forecast yields skill values of 1. A forecast with similar skill to the reference forecast will have a skill score of zero, and a forecast that is less skillful than the reference forecast will have negative skill score values}}
+
+\newglossaryentry{scoreboard-utility}{%
+  name={Scoreboard Utility},%
+  description={A graphical interface, connected to a score database, to support comparisons between numerical scores of different forecasts or forecast systems.
+Score data provider: a partner of the IMPREX project who contributes data to the scoreboard}}
+
+\newglossaryentry{EFAS}{%
+  name={{EFAS}},%
+  description={European Flood Awareness System (EFAS), developed and tested at the Joint Research Centre (JRC) of the European Commission, in collaboration with national hydrological and meteorological services, European civil protection agencies through the Emergency Response and Coordination Centre (ERCC), and other research institutes. It provides pan-European overview maps of flood probabilities up to 15 days in advance, and detailed forecasts at stations where the national services are providing real-time data. More than 30 hydrological services and civil protection services in Europe are part of the EFAS network. From: \url{http://www.ecmwf.int/en/research/projects/efas}
+  }}
+
+
+\newglossaryentry{Sys4-EFAS}{%
+  name={System 4 EFAS},%
+  description={System 4 refers to the "latest" ECMWF Integrated Forecasting System (IFS), implemented November 1 2011. The System 4 system runs on an improved atmospheric model, more (51) member forecasts, a new ocean component (NEMO), and uses initial conditions defined by NRT NEMOVAR}
+}
+
+
+
+% http://www.ecmwf.int/en/forecasts/documentation-and-support/evolution-ifs/cycles/seasonal-forecast-system-4
+
+\newglossaryentry{scoreboard-user}{%
+  name={Scoreboard User},%
+  description={Any person (partner of the IMPREX project or not) who wishes to visualize the quality of a forecast or a forecast system investigated in one of the case-studies of the IMPREX project (under the condition that the score of this forecast or a forecast system is made available by a score data provider)}}
+  
+\newglossaryentry{imprex}{%
+  name={IMPREX},%
+  description={\textbf{IM}proving \textbf{PR}edictions and management of hydrological \textbf{EX}tremes. Funding received from the European Union Horizon 2020 Research and Innovation Program under Grant Agreement N° 641811. \url{(http://www.imprex.eu)}
+  }}
+
+\newglossaryentry{ggplot2}{%
+  name={ggplot2},%
+  description={ggplot2 is an R package for data visualization. Created by \gls{Hadley} Wickham in 2005, ggplot2 is an implementation of Leland Wilkinson's \textit{Grammar of Graphics} —- a general scheme for data visualization which breaks up graphs into semantic components such as scales and layers. One of the strengths of ggplot2 is how well it shares it's "grammer" with Wickam's other popular R libraries, notably \textbf{dplyr}. A weakness: its implementation of grammar costs in performance, and it's slightly slower than lattice or base plot. Regardless, since 2005 ggplot2 has grown in use to become one of the most popular R packages
+  }}
+  
+  \newglossaryentry{recharge}{%
+  name={Recharge},%
+  description={ Infiltration of surface water and precipitation underground to become groundwater, or "recharge" the aquifer. This is a subsurface process defined by the water balance equation:
+  $recharge = precipitation - (transpiration + evaporation + runoff)$
+ }}
+  
+\newglossaryentry{ide}{%
+  name={IDE},%
+  description={Integrated Development Environment, a piece of software that facilitates interaction with a programming language. According to \autocite{wiki:ide}, "An IDE normally consists of a source code editor, build automation tools and a debugger" 
+  }}
+
+\newglossaryentry{source control}{%
+  name={Source Control},%
+  description={Also "version control" or "revision control", this is a method of controlling of changes to computer programs or documents. According to \autocite{wiki:source.control}, "Revision control manages changes to a set of data over time." In practice it allows one user to look at their prior work; it allows teams to see one anothers' edits; and it provides a way to "turn back the development clock" to former, working versions in event of catastrophic changes (ex by an inexperience programmer)
+  }}
+
+\newglossaryentry{Hadley}{%
+  name={Hadley},%
+  description={A famous R whisperer and author of at least seven books on the subject, Hadley Wickem is Chief Scientist of RStudio and Adjunct Professor of Statistics at the University of Auckland. He lives in Houston, Texas, where he was formerly an associate professor of statistics at Rice University \autocite{wiki:hadley}, \autocite{url:hadley}
+  }}
+%  https://github.com/hadley  
+
+\newglossaryentry{LaTeX}{%
+  name={LaTeX},%
+  description={LaTeX is a document preparation system used for the communication and publication of scientific documents. LaTeX is free software and is distributed under the LaTeX Project Public License. \href{https://www.latex-project.org//}{https://www.latex-project.org//}
+  }}
+

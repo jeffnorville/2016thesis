@@ -1,0 +1,849 @@
+@string{cup     = {Cambridge University Press}}
+@string{dtv     = {Deutscher Taschenbuch-Verlag}}
+@string{hup     = {Harvard University Press}}
+@string{jams    = {J.~Amer. Math. Soc.}}
+@string{jchph   = {J.~Chem. Phys.}}
+@string{jomch   = {J.~Organomet. Chem.}}
+@string{pup     = {Princeton University Press}}
+
+
+@set{set,
+  entryset     = {herrmann,aksin,yoon},
+  annotation   = {A \texttt{set} with three members. The \texttt{crossref} field
+                  in the \texttt{@set} entry and the \texttt{entryset} field in
+                  each set member entry is needed only when using BibTeX as the
+                  backend},
+}
+
+@set{stdmodel,
+  entryset     = {glashow,weinberg,salam},
+  annotation   = {A \texttt{set} with three members discussing the standard
+                  model of particle physics. The \texttt{crossref} field
+                  in the \texttt{@set} entry and the \texttt{entryset} field in
+                  each set member entry is needed only when using BibTeX as the
+                  backend},
+}
+
+@article{doody,
+  author       = {Doody, Terrence},
+  title        = {Hemingway's Style and Jake's Narration},
+  year         = 1974,
+  volume       = 4,
+  number       = 3,
+  pages        = {212-225},
+  langid       = {english},
+  langidopts   = {variant=american},
+  related      = {matuz:doody},
+  relatedstring= {\autocap{e}xcerpt in},
+  journal      = {The Journal of Narrative Technique},
+  annotation   = {An \texttt{article} entry cited as an excerpt from a
+                  \texttt{collection} entry. Note the format of the
+                  \texttt{related} and \texttt{relatedstring} fields},
+}
+
+@collection{matuz:doody,
+  editor       = {Matuz, Roger},
+  title        = {Contemporary Literary Criticism},
+  year         = 1990,
+  volume       = 61,
+  publisher    = {Gale},
+  location     = {Detroit},
+  pages        = {204-208},
+  langid       = {english},
+  langidopts   = {variant=american},
+  annotation   = {A \texttt{collection} entry providing the excerpt information
+                  for the \texttt{doody} entry. Note the format of the
+                  \texttt{pages} field},
+}
+
+@article{gillies,
+  author       = {Gillies, Alexander},
+  title        = {Herder and the Preparation of Goethe's Idea of World
+                  Literature},
+  journaltitle = {Publications of the English Goethe Society},
+  date         = 1933,
+  series       = {newseries},
+  volume       = 9,
+  pages        = {46-67},
+  langid       = {english},
+  langidopts   = {variant=british},
+  annotation   = {An \texttt{article} entry with a \texttt{series} and a
+                  \texttt{volume} field. Note that format of the \texttt{series}
+                  field in the database file},
+}
+
+@article{glashow,
+  author       = {Glashow, Sheldon},
+  title        = {Partial Symmetries of Weak Interactions},
+  journaltitle = {Nucl.~Phys.},
+  date         = 1961,
+  volume       = 22,
+  pages        = {579-588},
+}
+
+@article{herrmann,
+  author       = {Herrmann, Wolfgang A. and {\"O}fele, Karl and Schneider,
+                  Sabine K.  and Herdtweck, Eberhardt and Hoffmann, Stephan D.},
+  title        = {A carbocyclic carbene as an efficient catalyst ligand for C--C
+                  coupling reactions},
+  journaltitle = anch-ie,
+  date         = 2006,
+  volume       = 45,
+  number       = 23,
+  pages        = {3859-3862},
+  indextitle   = {Carbocyclic carbene as an efficient catalyst, A},
+}
+
+@article{kastenholz,
+  author       = {Kastenholz, M. A. and H{\"u}nenberger, Philippe H.},
+  title        = {Computation of methodology\hyphen independent ionic solvation
+                  free energies from molecular simulations},
+  journaltitle = jchph,
+  date         = 2006,
+  subtitle     = {I. The electrostatic potential in molecular liquids},
+  volume       = 124,
+  eid          = 124106,
+  doi          = {10.1063/1.2172593},
+  langid       = {english},
+  langidopts   = {variant=american},
+  indextitle   = {Computation of ionic solvation free energies},
+  annotation   = {An \texttt{article} entry with an \texttt{eid} and a
+                  \texttt{doi} field. Note that the \textsc{doi} is transformed
+                  into a clickable link if \texttt{hyperref} support has been
+                  enabled},
+  abstract     = {The computation of ionic solvation free energies from
+                  atomistic simulations is a surprisingly difficult problem that
+                  has found no satisfactory solution for more than 15 years. The
+                  reason is that the charging free energies evaluated from such
+                  simulations are affected by very large errors. One of these is
+                  related to the choice of a specific convention for summing up
+                  the contributions of solvent charges to the electrostatic
+                  potential in the ionic cavity, namely, on the basis of point
+                  charges within entire solvent molecules (M scheme) or on the
+                  basis of individual point charges (P scheme). The use of an
+                  inappropriate convention may lead to a charge-independent
+                  offset in the calculated potential, which depends on the
+                  details of the summation scheme, on the quadrupole-moment
+                  trace of the solvent molecule, and on the approximate form
+                  used to represent electrostatic interactions in the
+                  system. However, whether the M or P scheme (if any) represents
+                  the appropriate convention is still a matter of on-going
+                  debate. The goal of the present article is to settle this
+                  long-standing controversy by carefully analyzing (both
+                  analytically and numerically) the properties of the
+                  electrostatic potential in molecular liquids (and inside
+                  cavities within them).},
+}
+
+
+
+
+@manual{cms,
+  title        = {The Chicago Manual of Style},
+  date         = 2003,
+  subtitle     = {The Essential Guide for Writers, Editors, and Publishers},
+  edition      = 15,
+  publisher    = {University of Chicago Press},
+  location     = {Chicago, Ill.},
+  isbn         = {0-226-10403-6},
+  label        = {CMS},
+  langid       = {english},
+  langidopts   = {variant=american},
+  sorttitle    = {Chicago Manual of Style},
+  indextitle   = {Chicago Manual of Style, The},
+  shorttitle   = {Chicago Manual of Style},
+  annotation   = {This is a \texttt{manual} entry without an \texttt{author} or
+                  \texttt{editor}. Note the \texttt{label} field in the database
+                  file which is provided for author-year citation styles. Also
+                  note the \texttt{sorttitle} and \texttt{indextitle} fields. By
+                  default, all entries without an \texttt{author} or
+                  \texttt{editor} are alphabetized by \texttt{title} but we want
+                  this entry to be alphabetized under \enquote*{C} rather than
+                  \enquote*{T}. There's also an \texttt{isbn} field},
+}
+
+@online{ctan,
+  title        = {CTAN},
+  date         = 2006,
+  url          = {http://www.ctan.org},
+  subtitle     = {The Comprehensive TeX Archive Network},
+  urldate      = {2006-10-01},
+  label        = {CTAN},
+  langid       = {english},
+  langidopts   = {variant=american},
+  annotation   = {This is an \texttt{online} entry. The \textsc{url}, which is
+                  given in the \texttt{url} field, is transformed into a
+                  clickable link if \texttt{hyperref} support has been
+                  enabled. Note the format of the \texttt{urldate} field
+                  (\texttt{yyyy-mm-dd}) in the database file. Also note the
+                  \texttt{label} field which may be used as a fallback by
+                  citation styles which need an \texttt{author} and\slash or a
+                  \texttt{year}},
+}
+
+
+
+@report{padhye,
+  author       = {Padhye, Jitendra and Firoiu, Victor and Towsley, Don},
+  title        = {A Stochastic Model of TCP Reno Congestion Avoidance and
+                  Control},
+  type         = {techreport},
+  institution  = {University of Massachusetts},
+  date         = 1999,
+  number       = {99-02},
+  location     = {Amherst, Mass.},
+  langid       = {english},
+  langidopts   = {variant=american},
+  sorttitle    = {A Stochastic Model of TCP Reno Congestion Avoidance and
+                  Control},
+  indextitle   = {Stochastic Model of TCP Reno Congestion Avoidance and Control,
+                  A},
+  annotation   = {This is a \texttt{report} entry for a technical report. Note
+                  the format of the \texttt{type} field in the database file
+                  which uses a localization key. The number of the report is
+                  given in the \texttt{number} field. Also note the
+                  \texttt{sorttitle} and \texttt{indextitle} fields},
+  abstract     = {The steady state performance of a bulk transfer TCP flow
+                  (i.e. a flow with a large amount of data to send, such as FTP
+                  transfers) may be characterized by three quantities. The first
+                  is the send rate, which is the amount of data sent by the
+                  sender in unit time. The second is the throughput, which is
+                  the amount of data received by the receiver in unit time. Note
+                  that the throughput will always be less than or equal to the
+                  send rate due to losses. Finally, the number of non-duplicate
+                  packets received by the receiver in unit time gives us the
+                  goodput of the connection. The goodput is always less than or
+                  equal to the throughput, since the receiver may receive two
+                  copies of the same packet due to retransmissions by the
+                  sender. In a previous paper, we presented a simple model for
+                  predicting the steady state send rate of a bulk transfer TCP
+                  flow as a function of loss rate and round trip time. In this
+                  paper, we extend that work in two ways. First, we analyze the
+                  performance of bulk transfer TCP flows using more precise,
+                  stochastic analysis. Second, we build upon the previous
+                  analysis to provide both an approximate formula as well as a
+                  more accurate stochastic model for the steady state throughput
+                  of a bulk transfer TCP flow.},
+  file         = {ftp://gaia.cs.umass.edu/pub/Padhey99-markov.ps},
+}
+
+@thesis{geer,
+  author       = {de Geer, Ingrid},
+  title        = {Earl, Saint, Bishop, Skald~-- and Music},
+  type         = {phdthesis},
+  institution  = {Uppsala Universitet},
+  date         = 1985,
+  subtitle     = {The Orkney Earldom of the Twelfth Century. A Musicological
+                  Study},
+  location     = {Uppsala},
+  options      = {useprefix=false},
+  langid       = {english},
+  langidopts   = {variant=british},
+  annotation   = {This is a typical \texttt{thesis} entry for a PhD thesis. Note
+                  the \texttt{type} field in the database file which uses a
+                  localization key. Also note the format of the printed name and
+                  compare the \texttt{useprefix} option in the \texttt{options}
+                  field as well as \texttt{vangennep}},
+}
+
+@article{cloke2009ensemble,
+  title={Ensemble flood forecasting: a review},
+  author={Cloke, HL and Pappenberger, Florian},
+  journal={Journal of Hydrology},
+  volume={375},
+  number={3},
+  pages={613--626},
+  year={2009},
+  publisher={Elsevier}
+}
+
+@article{teutschbein2012bias,
+  title={Bias correction of regional climate model simulations for hydrological climate-change impact studies: Review and evaluation of different methods},
+  author={Teutschbein, Claudia and Seibert, Jan},
+  journal={Journal of Hydrology},
+  volume={456},
+  pages={12--29},
+  year={2012},
+  publisher={Elsevier}
+}
+
+@article{pappenberger2006influence,
+  title={Influence of uncertain boundary conditions and model structure on flood inundation predictions},
+  author={Pappenberger, Florian and Matgen, Patrick and Beven, Keith J and Henry, Jean-Baptiste and Pfister, Laurent and Fraipont, Paul},
+  journal={Advances in Water Resources},
+  volume={29},
+  number={10},
+  pages={1430--1449},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@article{emerton2016continental,
+  title={Continental and global scale flood forecasting systems},
+  author={Emerton, Rebecca E and Stephens, Elisabeth M and Pappenberger, Florian and Pagano, Thomas C and Weerts, Albrecht H and Wood, Andy W and Salamon, Peter and Brown, James D and Hjerdt, Niclas and Donnelly, Chantal and others},
+  journal={Wiley Interdisciplinary Reviews: Water},
+  year={2016},
+  publisher={Wiley Online Library}
+}
+
+//from Louie Crochemore
+@article{ferro2008effect,
+  title={On the effect of ensemble size on the discrete and continuous ranked probability scores},
+  author={Ferro, Christopher AT and Richardson, David S and Weigel, Andreas P},
+  journal={Meteorological Applications},
+  volume={15},
+  number={1},
+  pages={19--24},
+  year={2008},
+  publisher={Wiley Online Library}
+}
+
+@article{watson2015comparing,
+  title={Comparing the effects of calibration and climate errors on a statistical crop model and a process-based crop model},
+  author={Watson, James and Challinor, Andrew J and Fricker, Thomas E and Ferro, Christopher AT},
+  journal={Climatic Change},
+  volume={132},
+  number={1},
+  pages={93--109},
+  year={2015},
+  publisher={Springer}
+}
+
+@inproceedings{wetterhall2014floods,
+  title={Floods in Central Europe in June 2013},
+  author={Wetterhall, Fredrik and Pappenberger, Florian and Albergel, Clement and Alfieri, Lorenzo and Balsamo, Gianpaolo and Bogner, Konrad and Haiden, Thomas and Hewson, Tim and Magnusson, Linus and de Rosnay, Patricia and others},
+  booktitle={EGU General Assembly Conference Abstracts},
+  volume={16},
+  pages={12935},
+  year={2014}
+}
+
+@article{brier1950verification,
+  title={Verification of forecasts expressed in terms of probability},
+  author={Brier, Glenn W},
+  journal={Monthly weather review},
+  volume={78},
+  number={1},
+  pages={1--3},
+  year={1950}
+}
+
+
+@article{gneiting2007strictly,
+  title={Strictly proper scoring rules, prediction, and estimation},
+  author={Gneiting, Tilmann and Raftery, Adrian E},
+  journal={Journal of the American Statistical Association},
+  volume={102},
+  number={477},
+  pages={359--378},
+  year={2007},
+  publisher={Taylor \& Francis}
+}
+
+@article{gneiting2007probabilistic,
+  title={Probabilistic forecasts, calibration and sharpness},
+  author={Gneiting, Tilmann and Balabdaoui, Fadoua and Raftery, Adrian E},
+  journal={Journal of the Royal Statistical Society: Series B (Statistical Methodology)},
+  volume={69},
+  number={2},
+  pages={243--268},
+  year={2007},
+  publisher={Wiley Online Library}
+}
+
+@article{kjellstrom2010daily,
+  title={Daily and monthly temperature and precipitation statistics as performance indicators for regional climate models},
+  author={Kjellstr{\"o}m, Erik and Boberg, Fredrik and Castro, Manuel and Christensen, Jens Hesselbjerg and Nikulin, Grigory and S{\'a}nchez, Enrique},
+  journal={Climate Research},
+  volume={44},
+  number={2-3},
+  pages={135--150},
+  year={2010}
+}
+
+@article{stephenson2000use,
+  title={Use of the “odds ratio” for diagnosing forecast skill},
+  author={Stephenson, David B},
+  journal={Weather and Forecasting},
+  volume={15},
+  number={2},
+  pages={221--232},
+  year={2000}
+}
+
+@article{bowler2008accounting,
+  title={Accounting for the effect of observation errors on verification of MOGREPS},
+  author={Bowler, Neill E},
+  journal={Meteorological Applications},
+  volume={15},
+  number={1},
+  pages={199},
+  year={2008},
+  publisher={Cambridge, England: Cambridge University Press, 1994-}
+}
+
+@incollection{haiden2014ecmwf,
+  title={ECMWF forecast performance during the June 2013 flood in Central Europe},
+  author={Haiden, T and Magnusson, L and Tsonevsky, I and Wetterhall, F and Alfieri, L and Pappenberger, F and De Rosnay, P and Mu{\~n}oz-Sabater, J and Balsamo, G and Albergel, C and others},
+  booktitle={ECMWF Technical Memorandum No 723},
+  year={2014}
+}
+
+@article{wood2008ensemble,
+  title={An ensemble approach for attribution of hydrologic prediction uncertainty},
+  author={Wood, Andrew W and Lettenmaier, Dennis P},
+  journal={Geophysical Research Letters},
+  volume={35},
+  number={14},
+  year={2008},
+  publisher={Wiley Online Library}
+}
+
+@article{lavers2010large,
+  title={Large-scale climatic influences on precipitation and discharge for a British river basin},
+  author={Lavers, David and Prudhomme, Christel and Hannah, David M},
+  journal={Hydrological processes},
+  volume={24},
+  number={18},
+  pages={2555--2563},
+  year={2010},
+  publisher={Wiley Online Library}
+}
+
+@article{prudhomme2002downscaling,
+  title={Downscaling of global climate models for flood frequency analysis: where are we now?},
+  author={Prudhomme, Christel and Reynard, Nick and Crooks, Sue},
+  journal={Hydrological processes},
+  volume={16},
+  number={6},
+  pages={1137--1150},
+  year={2002},
+  publisher={Wiley Online Library}
+}
+
+@article{thirel2010past1of2,
+  title={A past discharges assimilation system for ensemble streamflow forecasts over France--Part 1: Description and validation of the assimilation system},
+  author={Thirel, Guillaume and Martin, E and Mahfouf, J-F and Massart, S and Ricci, S and Habets, Florence},
+  journal={Hydrology and Earth System Sciences},
+  volume={14},
+  pages={1623--1637},
+  year={2010}
+}
+
+@article{thirel2010past2of2,
+  title={A past discharge assimilation system for ensemble streamflow forecasts over France--Part 2: Impact on the ensemble streamflow forecasts},
+  author={Thirel, Guillaume and Martin, E and Mahfouf, J-F and Massart, S and Ricci, S and Regimbeau, Fabienne and Habets, Florence},
+  journal={Hydrology and Earth System Sciences},
+  volume={14},
+  pages={1639--1653},
+  year={2010}
+}
+
+@article{berg2006streamflow,
+  title={Streamflow predictability in the Saskatchewan/Nelson River basin given macroscale estimates of the initial soil moisture status},
+  author={Berg, Aaron A and Mulroy, Kathleen A},
+  journal={Hydrological sciences journal},
+  volume={51},
+  number={4},
+  pages={642--654},
+  year={2006},
+  publisher={Taylor \& Francis}
+}
+
+@article{roebber1996complex,
+  title={The complex relationship between forecast skill and forecast value: A real-world analysis},
+  author={Roebber, Paul J and Bosart, Lance F},
+  journal={Weather and Forecasting},
+  volume={11},
+  number={4},
+  pages={544--559},
+  year={1996}
+}
+
+@article{pappenberger2015know,
+  title={How do I know if my forecasts are better? Using benchmarks in hydrological ensemble prediction},
+  author={Pappenberger, Florian and Ramos, Maria-Helena and Cloke, Hannah L and Wetterhall, F and Alfieri, L and Bogner, Konrad and Mueller, Anna and Salamon, Peter},
+  journal={Journal of Hydrology},
+  volume={522},
+  pages={697--713},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{hersbach2000decomposition,
+  title={Decomposition of the continuous ranked probability score for ensemble prediction systems},
+  author={Hersbach, Hans},
+  journal={Weather and Forecasting},
+  volume={15},
+  number={5},
+  pages={559--570},
+  year={2000}
+}
+
+@article{weijs2010hydrological,
+  title={Why hydrological predictions should be evaluated using information theory},
+  author={Weijs, SV and Schoups, G and Van De Giesen, N},
+  journal={Hydrology and Earth System Sciences},
+  volume={14},
+  number={EPFL-ARTICLE-167375},
+  pages={2545--2558},
+  year={2010}
+}
+
+% copied here down from "working.bib" on 04_juillet_2016 jbn
+
+@article{baigorria2007assessing,
+  title={Assessing uncertainties in crop model simulations using daily bias-corrected Regional Circulation Model outputs},
+  author={Baigorria, Guillermo A and Jones, James W and Shin, Dong-Wook and Mishra, Ashok and O’Brien, James J},
+  journal={Climate Research},
+  volume={34},
+  number={3},
+  pages={211--222},
+  year={2007}
+}
+
+@article{pappenberger2015monetary,
+  title={The monetary benefit of early flood warnings in Europe},
+  author={Pappenberger, Florian and Cloke, Hannah L and Parker, Dennis J and Wetterhall, Fredrik and Richardson, David S and Thielen, Jutta},
+  journal={Environmental Science \& Policy},
+  volume={51},
+  pages={278--291},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{ziegel2014copula,
+  title={Copula calibration},
+  author={Ziegel, Johanna F and Gneiting, Tilmann and others},
+  journal={Electronic Journal of Statistics},
+  volume={8},
+  number={2},
+  pages={2619--2638},
+  year={2014},
+  publisher={The Institute of Mathematical Statistics and the Bernoulli Society}
+}
+
+@article{yuan2005verification,
+  title={Verification of probabilistic quantitative precipitation forecasts over the southwest United States during winter 2002/03 by the RSM ensemble system},
+  author={Yuan, Huiling and Mullen, Steven L and Gao, Xiaogang and Sorooshian, Soroosh and Du, Jun and Juang, Hann-Ming Henry},
+  journal={Monthly weather review},
+  volume={133},
+  number={1},
+  pages={279--294},
+  year={2005}
+}
+
+@article{boer2001second,
+  title={Second-order space-time climate difference statistics},
+  author={Boer, GJ and Lambert, SJ},
+  journal={Climate dynamics},
+  volume={17},
+  number={2-3},
+  pages={213--218},
+  year={2001},
+  publisher={Springer}
+}
+
+@article{berrocal2007combining,
+  title={Combining spatial statistical and ensemble information in probabilistic weather forecasts},
+  author={Berrocal, Veronica J and Raftery, Adrian E and Gneiting, Tilmann},
+  journal={Monthly Weather Review},
+  volume={135},
+  number={4},
+  pages={1386--1402},
+  year={2007}
+}
+
+@article{briggs1997wavelets,
+  title={Wavelets and field forecast verification},
+  author={Briggs, William M and Levine, Richard A},
+  journal={Monthly Weather Review},
+  volume={125},
+  number={6},
+  pages={1329--1341},
+  year={1997}
+}
+
+@article{emerton2016continental,
+  title={Continental and global scale flood forecasting systems},
+  author={Emerton, Rebecca E and Stephens, Elisabeth M and Pappenberger, Florian and Pagano, Thomas C and Weerts, Albrecht H and Wood, Andy W and Salamon, Peter and Brown, James D and Hjerdt, Niclas and Donnelly, Chantal and others},
+  journal={Wiley Interdisciplinary Reviews: Water},
+  year={2016},
+  publisher={Wiley Online Library}
+}
+
+@article{gober2008could,
+  title={Could a perfect model ever satisfy a na{\"\i}ve forecaster? On grid box mean versus point verification},
+  author={G{\"o}ber, Martin and Zsoter, Ervin and Richardson, David S},
+  journal={Meteorological Applications},
+  volume={15},
+  number={3},
+  pages={359--365},
+  year={2008},
+  publisher={Wiley Online Library}
+}
+
+@article{teutschbein2013bias,
+  title={Is bias correction of regional climate model (RCM) simulations possible for non-stationary conditions?},
+  author={Teutschbein, Claudia and Seibert, Jan},
+  journal={Hydrology and Earth System Sciences},
+  volume={17},
+  number={12},
+  pages={5061--5077},
+  year={2013},
+  publisher={Copernicus GmbH}
+}
+
+@book{kahneman2011thinking,
+  title={Thinking, fast and slow},
+  author={Kahneman, Daniel},
+  year={2011},
+  publisher={Macmillan}
+}
+
+@article{murphy1996finley,
+  title={The Finley affair: A signal event in the history of forecast verification},
+  author={Murphy, Allan H},
+  journal={Weather and Forecasting},
+  volume={11},
+  number={1},
+  pages={3--20},
+  year={1996}
+}
+
+@article{finley1884tornado,
+  title={Tornado predictions},
+  author={Finley, Jno P},
+  journal={American Meteorological Journal},
+  volume={1},
+  pages={85--88},
+  year={1884}
+}
+
+@article{murphy1984probability,
+  title={Probability forecasting in meteorology},
+  author={Murphy, Allan H and Winkler, Robert L},
+  journal={Journal of the American Statistical Association},
+  volume={79},
+  number={387},
+  pages={489--500},
+  year={1984},
+  publisher={Taylor \& Francis Group}
+}
+
+
+ @misc{ wiki:oss,
+   author = "Wikipedia",
+   title = "LaTeX --- Wikipedia{,} The Free Encyclopedia",
+   year = "2016",
+   url = "\url{https://en.wikipedia.org/w/index.php?title=LaTeX&oldid=413720397}",
+   note = "[Online; accessed 4-September-2016]"
+ }
+
+
+@misc{ wiki:oss2,
+   author = "Wikipedia",
+   title = "Open-source software --- Wikipedia{,} The Free Encyclopedia",
+   year = "2016",
+   url = "\url{https://en.wikipedia.org/w/index.php?title=Open-source_software&oldid=737310708}",
+   note = "[Online; accessed 4-September-2016]"
+ }
+ 
+ @book{wilks2011statistical,
+  title={Statistical methods in the atmospheric sciences},
+  author={Wilks, Daniel S},
+  volume={100},
+  year={2011},
+  publisher={Academic press}
+}
+
+ @misc{ wiki:ggplot2,
+   author = "Wikipedia",
+   title = "Ggplot2 --- Wikipedia{,} The Free Encyclopedia",
+   year = "2016",
+   url = "\url{https://en.wikipedia.org/w/index.php?title=Ggplot2&oldid=730570109}",
+   note = "[Online; accessed 6-September-2016]"
+ }
+ 
+ @book{fetter2000applied,
+  title={Applied hydrogeology},
+  author={Fetter, Charles Willard},
+  year={2000},
+  publisher={Prentice hall}
+}
+
+@article{fetter1994applied,
+  title={Applied Hydrogeology. 3rd},
+  author={Fetter, CW},
+  journal={University of Wisconsin-Oshkosh: Prentice Hall},
+  pages={44},
+  year={1994}
+}
+
+@article{guan20132010,
+  title={The 2010/2011 snow season in California's Sierra Nevada: Role of atmospheric rivers and modes of large-scale variability},
+  author={Guan, Bin and Molotch, Noah P and Waliser, Duane E and Fetzer, Eric J and Neiman, Paul J},
+  journal={Water Resources Research},
+  volume={49},
+  number={10},
+  pages={6731--6743},
+  year={2013},
+  publisher={Wiley Online Library}
+}
+
+@misc{ url:ossRevoMS,
+   author = "David Smith",
+   title = "Microsoft Revolutions Blog: In data scientist survey, R is the most-used tool \(other than databases\)",
+   year = "2014",
+   url = "\url{http://blog.revolutionanalytics.com/2014/01/in-data-scientist-survey-r-is-the-most-used-tool-other-than-databases.html}",
+   note = "[Online; accessed 6-September-2016]"
+ }
+
+@misc{ url:ossTCmoneyopensource,
+   author = "Max Shireson, Dharmesh Thakker",
+   title = "TechCrunch: The Money In Open-Source Software",
+   year = "2016",
+   url = "\url{https://techcrunch.com/2016/02/09/the-money-in-open-source-software/}",
+   note = "[Online; accessed 6-September-2016]"
+ }
+
+% http://www.cawcr.gov.au/projects/verification/
+%@misc{url:cawcr,
+%  author = "CAWCR",
+%  title = {Collaboration for Australian Weather and Climate %Research},
+%  url =  "\url{http://www.cawcr.gov.au/projects/verification/}",
+%  note = {Accessed: 2016-07-03}
+%}
+
+@misc{ url:cawcr,
+   author = "{Joint Working Group on Forecast Verification Research}",
+   title = "Forecast Verification - Issues, Methods, and FAQ - cawcr",
+   year = "2016",
+   url = "\url{http://www.cawcr.gov.au/projects/verification/}",
+   note = "[Online; accessed 6-September-2016]"
+ }
+
+@article{hanson2005ground,
+  title={GROUND WATER/SURFACE WATER RESPONSES TO GLOBAL CLIMATE SIMULATIONS, SANTA CLARA-CALLEGUAS BASIN, VENTURA, CALIFORNIA1},
+  author={Hanson, Randall T and Dettinger, Michael D},
+  journal={JAWRA Journal of the American Water Resources Association},
+  volume={41},
+  number={3},
+  pages={517--536},
+  year={2005},
+  publisher={Wiley Online Library}
+}
+
+@article{almanaseer2012improving,
+  title={Improving groundwater predictions utilizing seasonal precipitation forecasts from General Circulation Models forced with Sea Surface Temperature forecasts},
+  author={Almanaseer, Naser and Sankarasubramanian, A and Bales, Jerad},
+  journal={Journal of Hydrologic Engineering},
+  volume={19},
+  number={1},
+  pages={87--98},
+  year={2012},
+  publisher={American Society of Civil Engineers}
+}
+
+@article{pappenberger2008hydrological,
+  title={Hydrological aspects of meteorological verification},
+  author={Pappenberger, F and Scipal, K and Buizza, R},
+  journal={Atmospheric Science Letters},
+  volume={9},
+  number={2},
+  pages={43--52},
+  year={2008},
+  publisher={Wiley Online Library}
+}
+
+@inproceedings{jones2015cdwrproceedings,
+    author = {Jeanine Jones},
+    title = {Workshop on Improving Sub-Seasonal and Seasonal Precipitation Forecasting for Drought Preparedness},
+    booktitle = {Proceedings of the Western States Water Council/California Department of Water Resources},
+    month = May,
+    year = 2015,
+    publisher = {Jennifer Segur, Graphic Services Branch,
+California Department of Water Resources},
+    editor = {Tony Willardson and Cheryl Redding},
+    pages = {1-24},
+}
+
+  @book{box2007response,
+  title={Response surfaces, mixtures, and ridge analyses},
+  author={Box, George EP and Draper, Norman R},
+  volume={649},
+  year={2007},
+  publisher={John Wiley \& Sons}
+}
+
+ @misc{ wiki:ide,
+   author = "Wikipedia",
+   title = "Integrated development environment --- Wikipedia{,} The Free Encyclopedia",
+   year = "2016",
+   url = "\url{https://en.wikipedia.org/w/index.php?title=Integrated_development_environment&oldid=735954799}",
+   note = "[Online; accessed 8-September-2016]"
+ }
+ 
+  @misc{ wiki:source.control,
+   author = "Wikipedia",
+   title = "Version control --- Wikipedia{,} The Free Encyclopedia",
+   year = "2016",
+   url = "\url{https://en.wikipedia.org/w/index.php?title=Version_control&oldid=738275455}",
+   note = "[Online; accessed 8-September-2016]"
+ }
+ 
+  @misc{ wiki:hadley,
+   author = "Wikipedia",
+   title = "Hadley Wickham --- Wikipedia{,} The Free Encyclopedia",
+   year = "2016",
+   url = "\url{https://en.wikipedia.org/w/index.php?title=Hadley_Wickham&oldid=733187809}",
+   note = "[Online; accessed 8-September-2016]"
+ }
+ 
+ @misc{ url:hadley,
+   author = "{Hadley Wickem}",
+   title = "Hadley Wickham",
+   year = "2016",
+   url = "\url{http://hadley.nz/}",
+   note = "[Online; accessed 8-September-2016]"
+ }
+ 
+ @article{gneiting2005calibrated,
+  title={Calibrated probabilistic forecasting using ensemble model output statistics and minimum CRPS estimation},
+  author={Gneiting, Tilmann and Raftery, Adrian E and Westveld III, Anton H and Goldman, Tom},
+  journal={Monthly Weather Review},
+  volume={133},
+  number={5},
+  pages={1098--1118},
+  year={2005}
+}
+
+@article{roebber1998regime,
+  title={The regime dependence of degree day forecast technique, skill, and value},
+  author={Roebber, Paul J},
+  journal={Weather and forecasting},
+  volume={13},
+  number={3},
+  pages={783--794},
+  year={1998}
+}
+
+@article{murphy1993good,
+  title={What is a good forecast? An essay on the nature of goodness in weather forecasting},
+  author={Murphy, Allan H},
+  journal={Weather and forecasting},
+  volume={8},
+  number={2},
+  pages={281--293},
+  year={1993}
+}
+
+@article{weigel2007discrete,
+  title={The discrete Brier and ranked probability skill scores},
+  author={Weigel, Andreas P and Liniger, Mark A and Appenzeller, Christof},
+  journal={Monthly Weather Review},
+  volume={135},
+  number={1},
+  pages={118--124},
+  year={2007}
+}

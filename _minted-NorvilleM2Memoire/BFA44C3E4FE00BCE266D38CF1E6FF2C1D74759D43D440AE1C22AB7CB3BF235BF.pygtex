@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{CREATE} \PYG{k}{TABLE} \PYG{l+s+ss}{\PYGZdq{}tblScores\PYGZdq{}}
+\PYG{p}{(}
+  \PYG{l+s+ss}{\PYGZdq{}row.names\PYGZdq{}} \PYG{n+nb}{text}\PYG{p}{,}
+  \PYG{l+s+ss}{\PYGZdq{}locationID\PYGZdq{}} \PYG{n+nb}{text}\PYG{p}{,}
+  \PYG{l+s+ss}{\PYGZdq{}scoreValue\PYGZdq{}} \PYG{n}{double} \PYG{k}{precision}\PYG{p}{,}
+  \PYG{l+s+ss}{\PYGZdq{}forecastType\PYGZdq{}} \PYG{n+nb}{text}\PYG{p}{,}
+  \PYG{l+s+ss}{\PYGZdq{}dateValue\PYGZdq{}} \PYG{n+nb}{date}\PYG{p}{,}
+  \PYG{l+s+ss}{\PYGZdq{}datePartValue\PYGZdq{}} \PYG{n+nb}{numeric}\PYG{p}{,} \PYG{c+c1}{\PYGZhy{}\PYGZhy{} valid numeric values: 12 (month), 51 (week)}
+  \PYG{l+s+ss}{\PYGZdq{}datePartUnit\PYGZdq{}} \PYG{n+nb}{text}\PYG{p}{,} \PYG{c+c1}{\PYGZhy{}\PYGZhy{} valid values: \PYGZdq{}month\PYGZdq{}, \PYGZdq{}week\PYGZdq{}}
+  \PYG{l+s+ss}{\PYGZdq{}leadtimeValue\PYGZdq{}} \PYG{n+nb}{integer}\PYG{p}{,}
+  \PYG{l+s+ss}{\PYGZdq{}leadtimeUnit\PYGZdq{}} \PYG{n+nb}{text}\PYG{p}{,} \PYG{c+c1}{\PYGZhy{}\PYGZhy{} daily weekly monthly}
+  \PYG{l+s+ss}{\PYGZdq{}scoreNA\PYGZdq{}} \PYG{n+nb}{boolean}\PYG{p}{,} \PYG{c+c1}{\PYGZhy{}\PYGZhy{} if scoreValue == NA then TRUE}
+  \PYG{l+s+ss}{\PYGZdq{}scoreType\PYGZdq{}} \PYG{n+nb}{text}\PYG{p}{,} \PYG{c+c1}{\PYGZhy{}\PYGZhy{} lookup to other table of forecast types}
+  \PYG{l+s+ss}{\PYGZdq{}modelVariable\PYGZdq{}} \PYG{n+nb}{text}\PYG{p}{,}
+  \PYG{l+s+ss}{\PYGZdq{}dataPackageGUID\PYGZdq{}} \PYG{n+nb}{text}
+\PYG{p}{)}
+\end{Verbatim}

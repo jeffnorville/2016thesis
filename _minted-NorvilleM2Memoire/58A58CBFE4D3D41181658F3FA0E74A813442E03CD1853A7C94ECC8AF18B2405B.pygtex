@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{require}\PYG{p}{(}dplyr\PYG{p}{)}
+\PYG{k+kn}{require}\PYG{p}{(}ggplot2\PYG{p}{)}
+toto1 \PYG{o}{\PYGZlt{}\PYGZhy{}} filter\PYG{p}{(}toto\PYG{p}{,} locationID \PYG{o}{\PYGZpc{}in\PYGZpc{}} basin.list\PYG{p}{[}\PYG{l+m}{1}\PYG{o}{:}\PYG{l+m}{9}\PYG{p}{])}
+ggplot\PYG{p}{(}toto1\PYG{p}{,} aes\PYG{p}{(}x \PYG{o}{=} leadtimeValue\PYG{p}{,} y \PYG{o}{=} scoreValue\PYG{p}{))} \PYG{o}{+}
+  geom\PYGZus{}boxplot\PYG{p}{()} \PYG{o}{+}
+  facet\PYGZus{}wrap\PYG{p}{(}\PYG{o}{\PYGZti{}} locationID\PYG{p}{)} \PYG{o}{+}
+  xlab\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Lead Times\PYGZdq{}}\PYG{p}{)} \PYG{o}{+} ylab\PYG{p}{(}\PYG{l+s}{\PYGZdq{}RMSE Scores\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

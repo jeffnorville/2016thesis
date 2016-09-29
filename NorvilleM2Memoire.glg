@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 15.09.2016  13:27:01
-;; Indexstyle: "C:\\Users\\Jeff Norville\\git\\thesis\\aqwz1dWss1", Rawindex: "C:\\Users\\Jeff Norville\\git\\thesis\\gKhDTVaaUU", Output: "NorvilleM2Memoire.gls"
+;; at 26.09.2016  14:24:35
+;; Indexstyle: "C:\\Users\\Jeff Norville\\git\\ThesisGH\\yltlxzvDTn", Rawindex: "C:\\Users\\Jeff Norville\\git\\ThesisGH\\sfqmAXVows", Output: "NorvilleM2Memoire.gls"
 
 
 Building indexentry-tree:
@@ -21,8 +21,10 @@ sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 
 Forming letter-groups:
+Letter-group: "¤€´—í" -> "H"
 Letter-group: "´—€ Ú¨»—" -> "L"
 Letter-group: "œÃË—†€ÐÚ È—Ë¨Ã" -> "F"
 Letter-group: "¤¨¼†€ÐÚ" -> "H"
@@ -45,7 +47,7 @@ Letter-group: "œÃË—†€ÐÚ È—Ë¨Ã" -> "F"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "È´ÃÚ2" -> "G"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-Letter-group: "¤¨¼†€ÐÚ" -> "H"
+Letter-group: "¤€´—í" -> "H"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "¨—" -> "I"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
